@@ -1,4 +1,4 @@
-#TODO: make alerts relevant to protocol and port
+#TODO: make alerts relevant to protocol/port
 #TODO: weights for chance of particular protocol and alerts
 
 import log
@@ -6,47 +6,38 @@ import config
 import time
 import random
 
-PROTOCOL = ['TCP', 'UDP', 'ICMP', 'HTTP', 'HTTPS', 'FTP', 'SMTP', 'DNS', 'DHCP', 'TFTP', 'SNMP']
 SOURCE_IP = '192.168.1.'
 DESTINATION_IP = '192.168.1.'
+
+PROTOCOL = ['TCP', 'UDP', 'HTTP', 'HTTPS', 'ICMP', 'FTP', 'SMTP', 'DNS', 'DHCP', 'TFTP', 'SNMP']
+PROTOCOL_WEIGHTS = [11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+PROTOCOL_TO_PORT = {
+    'TCP': random.randint(1, 65535),
+    'UDP': random.randint(1, 65535),
+    'ICMP': 1,
+    'HTTP': 80,
+    'HTTPS': 443,
+    'FTP': 21,
+    'SMTP': 25,
+    'DNS': 53,
+    'DHCP': 67,
+    'TFTP': 69,
+    'SNMP': 161
+}
+
 FLAGS = ['SYN', 'ACK', 'FIN', 'RST', 'PSH', 'URG']
-ALERT_DESCRIPTION = ['Malware', 'Phishing', 'SQL Injection', 'Cross-site scripting (XSS)', 'Denial of service (DoS)', 'Port scanning', 'Malicious traffic']
+ALERT_DESCRIPTION = ['Port scanning', 'Denial of service (DoS)', 'Malicious traffic',  'Phishing', 'Malware', 'SQL Injection', 'Cross-site scripting (XSS)']
+ALERT_WEIGHTS = [7, 6, 5, 4, 3, 2, 1]
 
 
 def make_event():
-    event_protocol = random.choice(PROTOCOL)
+    event_protocol = random.choices(PROTOCOL, PROTOCOL_WEIGHTS)[0]
     event_src_ip = SOURCE_IP + str(random.randint(1, 255))
     event_dest_ip = DESTINATION_IP + str(random.randint(1, 255))
     event_src_port = random.randint(1, 65535)
-    
-    if event_protocol == 'TCP':
-        event_dest_port = random.randint(1, 65535)
-    elif event_protocol == 'UDP':
-        event_dest_port = random.randint(1, 65535)
-    elif event_protocol == 'ICMP':
-        event_dest_port = '1'
-    elif event_protocol == 'HTTP':
-        event_dest_port = '80'
-    elif event_protocol == 'HTTPS':
-        event_dest_port = '443'
-    elif event_protocol == 'FTP':
-        event_dest_port = '21'
-    elif event_protocol == 'SMTP':
-        event_dest_port = '25'
-    elif event_protocol == 'DNS':
-        event_dest_port = '53'
-    elif event_protocol == 'DHCP':
-        event_dest_port = '67'
-    elif event_protocol == 'TFTP':
-        event_dest_port = '69'
-    elif event_protocol == 'SNMP':
-        event_dest_port = '161'
-    else:
-        event_dest_port = random.randint(1, 65535)
-
-
+    event_dest_port = PROTOCOL_TO_PORT.get(event_protocol, random.randint(1, 65535))
     event_flags = random.choice(FLAGS)
-    event_alert_desc = random.choice(ALERT_DESCRIPTION)
+    event_alert_desc = random.choices(ALERT_DESCRIPTION, ALERT_WEIGHTS)[0]
     event = f"{event_protocol} {event_src_ip} {event_dest_ip} {event_src_port} {event_dest_port} {event_flags} {event_alert_desc}"
 
     return event
