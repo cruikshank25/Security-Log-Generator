@@ -1,0 +1,6 @@
+# ignore pycache
+__pycache__/
+
+
+# ignore log
+security.log
