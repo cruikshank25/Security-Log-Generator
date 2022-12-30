@@ -1,48 +1,121 @@
-2022-12-30 11:42:34,841 - security_logger_1 - TFTP 192.168.1.147 192.168.1.42 46012 69 ACK Port scanning
-2022-12-30 11:42:35,092 - security_logger_1 - HTTPS 192.168.1.139 192.168.1.213 5244 443 SYN SQL Injection
-2022-12-30 11:42:35,343 - security_logger_1 - DNS 192.168.1.112 192.168.1.88 35893 53 SYN Port scanning
-2022-12-30 11:42:35,594 - security_logger_1 - DHCP 192.168.1.229 192.168.1.23 31441 67 FIN Cross-site scripting (XSS)
-2022-12-30 11:42:35,844 - security_logger_1 - SMTP 192.168.1.84 192.168.1.232 8013 25 SYN SQL Injection
-2022-12-30 11:42:36,095 - security_logger_1 - UDP 192.168.1.227 192.168.1.18 63142 56468 FIN Malware
-2022-12-30 11:42:36,346 - security_logger_1 - TFTP 192.168.1.253 192.168.1.57 12668 69 RST Malware
-2022-12-30 11:42:36,597 - security_logger_1 - SNMP 192.168.1.219 192.168.1.20 13357 161 ACK Port scanning
-2022-12-30 11:42:36,848 - security_logger_1 - HTTPS 192.168.1.55 192.168.1.67 55007 443 URG Denial of service (DoS)
-2022-12-30 11:42:37,098 - security_logger_1 - SMTP 192.168.1.243 192.168.1.178 52936 25 PSH Malware
-2022-12-30 11:42:37,349 - security_logger_1 - HTTPS 192.168.1.156 192.168.1.140 7012 443 FIN Denial of service (DoS)
-2022-12-30 11:42:37,600 - security_logger_1 - UDP 192.168.1.99 192.168.1.204 38252 44172 RST SQL Injection
-2022-12-30 11:42:37,851 - security_logger_1 - HTTPS 192.168.1.129 192.168.1.94 19634 443 URG Port scanning
-2022-12-30 11:42:38,102 - security_logger_1 - HTTP 192.168.1.126 192.168.1.35 57582 80 ACK SQL Injection
-2022-12-30 11:42:38,352 - security_logger_1 - HTTPS 192.168.1.247 192.168.1.3 54486 443 ACK Malicious traffic
-2022-12-30 11:42:38,603 - security_logger_1 - ICMP 192.168.1.141 192.168.1.175 12171 1 FIN Malware
-2022-12-30 11:42:38,854 - security_logger_1 - SMTP 192.168.1.157 192.168.1.64 55050 25 FIN Malicious traffic
-2022-12-30 11:42:39,105 - security_logger_1 - UDP 192.168.1.149 192.168.1.58 62750 50055 FIN Cross-site scripting (XSS)
-2022-12-30 11:42:39,355 - security_logger_1 - TFTP 192.168.1.131 192.168.1.131 6854 69 FIN Phishing
-2022-12-30 11:42:39,606 - security_logger_1 - DNS 192.168.1.56 192.168.1.204 25194 53 URG Malware
-2022-12-30 11:42:39,857 - security_logger_1 - TFTP 192.168.1.209 192.168.1.246 28194 69 PSH Malicious traffic
-2022-12-30 11:42:40,108 - security_logger_1 - SMTP 192.168.1.41 192.168.1.1 8719 25 RST Denial of service (DoS)
-2022-12-30 11:42:40,359 - security_logger_1 - DHCP 192.168.1.231 192.168.1.61 36853 67 SYN Malware
-2022-12-30 11:42:40,610 - security_logger_1 - FTP 192.168.1.244 192.168.1.79 59555 21 URG Cross-site scripting (XSS)
-2022-12-30 11:42:40,861 - security_logger_1 - TFTP 192.168.1.188 192.168.1.53 54042 69 FIN Port scanning
-2022-12-30 11:42:41,112 - security_logger_1 - HTTPS 192.168.1.140 192.168.1.147 5755 443 URG Denial of service (DoS)
-2022-12-30 11:42:41,363 - security_logger_1 - UDP 192.168.1.183 192.168.1.209 43068 65334 PSH Malware
-2022-12-30 11:42:41,614 - security_logger_1 - FTP 192.168.1.93 192.168.1.224 42684 21 ACK Cross-site scripting (XSS)
-2022-12-30 11:42:41,865 - security_logger_1 - SNMP 192.168.1.97 192.168.1.103 2789 161 SYN Port scanning
-2022-12-30 11:42:42,116 - security_logger_1 - FTP 192.168.1.16 192.168.1.251 46788 21 URG Malware
-2022-12-30 11:42:42,367 - security_logger_1 - HTTP 192.168.1.255 192.168.1.72 46286 80 RST Malware
-2022-12-30 11:42:42,618 - security_logger_1 - FTP 192.168.1.5 192.168.1.118 59619 21 URG Cross-site scripting (XSS)
-2022-12-30 11:42:42,869 - security_logger_1 - SMTP 192.168.1.230 192.168.1.179 32500 25 URG SQL Injection
-2022-12-30 11:42:43,120 - security_logger_1 - SNMP 192.168.1.151 192.168.1.149 8563 161 PSH Malicious traffic
-2022-12-30 11:42:43,371 - security_logger_1 - SNMP 192.168.1.72 192.168.1.160 30085 161 RST Port scanning
-2022-12-30 11:42:43,622 - security_logger_1 - DHCP 192.168.1.135 192.168.1.92 59773 67 ACK Phishing
-2022-12-30 11:42:43,873 - security_logger_1 - FTP 192.168.1.231 192.168.1.23 62317 21 ACK Phishing
-2022-12-30 11:42:44,124 - security_logger_1 - DNS 192.168.1.33 192.168.1.57 15243 53 SYN Malicious traffic
-2022-12-30 11:42:44,375 - security_logger_1 - SNMP 192.168.1.4 192.168.1.10 6757 161 FIN Malicious traffic
-2022-12-30 11:42:44,626 - security_logger_1 - TCP 192.168.1.224 192.168.1.57 20470 23644 FIN Denial of service (DoS)
-2022-12-30 11:42:44,877 - security_logger_1 - HTTPS 192.168.1.218 192.168.1.236 8178 443 PSH Cross-site scripting (XSS)
-2022-12-30 11:42:45,128 - security_logger_1 - DHCP 192.168.1.165 192.168.1.220 13250 67 RST Denial of service (DoS)
-2022-12-30 11:42:45,379 - security_logger_1 - ICMP 192.168.1.176 192.168.1.229 13030 1 FIN Denial of service (DoS)
-2022-12-30 11:42:45,630 - security_logger_1 - SMTP 192.168.1.195 192.168.1.208 61626 25 RST Malicious traffic
-2022-12-30 11:42:45,881 - security_logger_1 - TCP 192.168.1.27 192.168.1.74 45511 4848 URG SQL Injection
-2022-12-30 11:42:46,132 - security_logger_1 - ICMP 192.168.1.96 192.168.1.203 64183 1 URG SQL Injection
-2022-12-30 11:42:46,383 - security_logger_1 - DNS 192.168.1.71 192.168.1.102 25195 53 PSH Malware
-2022-12-30 11:42:46,634 - security_logger_1 - SNMP 192.168.1.1 192.168.1.97 51023 161 SYN Denial of service (DoS)
+2022-12-30 16:57:30,170 - security_logger_1 - TFTP 192.168.1.90 192.168.1.112 61049 69 URG Cross-site scripting (XSS)
+2022-12-30 16:57:30,421 - security_logger_1 - HTTPS 192.168.1.133 192.168.1.44 35617 443 ACK SQL Injection
+2022-12-30 16:57:30,672 - security_logger_1 - HTTPS 192.168.1.195 192.168.1.78 6719 443 SYN Phishing
+2022-12-30 16:57:30,923 - security_logger_1 - UDP 192.168.1.42 192.168.1.210 48542 42195 URG Port scanning
+2022-12-30 16:57:31,174 - security_logger_1 - TCP 192.168.1.76 192.168.1.116 14004 42080 PSH Phishing
+2022-12-30 16:57:31,426 - security_logger_1 - DNS 192.168.1.223 192.168.1.243 45504 53 RST Malware
+2022-12-30 16:57:31,676 - security_logger_1 - UDP 192.168.1.150 192.168.1.91 44665 42195 ACK Phishing
+2022-12-30 16:57:31,927 - security_logger_1 - UDP 192.168.1.28 192.168.1.241 64696 42195 ACK Port scanning
+2022-12-30 16:57:32,178 - security_logger_1 - HTTP 192.168.1.150 192.168.1.219 54176 80 SYN Port scanning
+2022-12-30 16:57:32,429 - security_logger_1 - HTTP 192.168.1.64 192.168.1.77 7845 80 PSH Phishing
+2022-12-30 16:57:32,680 - security_logger_1 - TFTP 192.168.1.135 192.168.1.121 3485 69 PSH Port scanning
+2022-12-30 16:57:32,931 - security_logger_1 - FTP 192.168.1.251 192.168.1.253 35676 21 ACK Malicious traffic
+2022-12-30 16:57:33,182 - security_logger_1 - FTP 192.168.1.250 192.168.1.196 32131 21 ACK Malicious traffic
+2022-12-30 16:57:33,433 - security_logger_1 - ICMP 192.168.1.59 192.168.1.1 22107 1 RST Port scanning
+2022-12-30 16:57:33,684 - security_logger_1 - HTTP 192.168.1.213 192.168.1.56 17461 80 SYN Port scanning
+2022-12-30 16:57:33,936 - security_logger_1 - FTP 192.168.1.179 192.168.1.151 37497 21 FIN Phishing
+2022-12-30 16:57:34,187 - security_logger_1 - SNMP 192.168.1.100 192.168.1.194 20816 161 FIN Port scanning
+2022-12-30 16:57:34,438 - security_logger_1 - TCP 192.168.1.18 192.168.1.175 7469 42080 PSH Malicious traffic
+2022-12-30 16:57:34,689 - security_logger_1 - FTP 192.168.1.189 192.168.1.145 35799 21 PSH Port scanning
+2022-12-30 16:57:34,940 - security_logger_1 - HTTPS 192.168.1.74 192.168.1.125 11513 443 URG Port scanning
+2022-12-30 16:57:35,191 - security_logger_1 - FTP 192.168.1.186 192.168.1.201 17780 21 PSH Port scanning
+2022-12-30 16:57:35,442 - security_logger_1 - DHCP 192.168.1.62 192.168.1.59 11528 67 URG Port scanning
+2022-12-30 16:57:35,693 - security_logger_1 - HTTP 192.168.1.91 192.168.1.35 47350 80 FIN Port scanning
+2022-12-30 16:57:35,944 - security_logger_1 - DNS 192.168.1.86 192.168.1.55 1953 53 SYN Malicious traffic
+2022-12-30 16:57:36,195 - security_logger_1 - HTTPS 192.168.1.184 192.168.1.198 11218 443 URG Malicious traffic
+2022-12-30 16:57:36,446 - security_logger_1 - UDP 192.168.1.152 192.168.1.199 54409 42195 PSH Denial of service (DoS)
+2022-12-30 16:57:36,697 - security_logger_1 - HTTP 192.168.1.97 192.168.1.254 42777 80 FIN Phishing
+2022-12-30 16:57:36,948 - security_logger_1 - TCP 192.168.1.248 192.168.1.191 27742 42080 SYN Cross-site scripting (XSS)
+2022-12-30 16:57:37,199 - security_logger_1 - FTP 192.168.1.129 192.168.1.43 59242 21 ACK Port scanning
+2022-12-30 16:57:37,450 - security_logger_1 - DNS 192.168.1.54 192.168.1.219 3090 53 PSH Malware
+2022-12-30 16:57:37,701 - security_logger_1 - TCP 192.168.1.166 192.168.1.86 11482 42080 PSH Port scanning
+2022-12-30 16:57:37,952 - security_logger_1 - ICMP 192.168.1.36 192.168.1.209 17953 1 FIN SQL Injection
+2022-12-30 16:57:38,203 - security_logger_1 - DNS 192.168.1.185 192.168.1.73 60747 53 ACK Denial of service (DoS)
+2022-12-30 16:57:38,454 - security_logger_1 - HTTP 192.168.1.238 192.168.1.143 60833 80 SYN Malicious traffic
+2022-12-30 16:57:38,705 - security_logger_1 - SMTP 192.168.1.183 192.168.1.243 53440 25 URG Port scanning
+2022-12-30 16:57:38,956 - security_logger_1 - SMTP 192.168.1.140 192.168.1.161 28441 25 PSH Malware
+2022-12-30 16:57:39,207 - security_logger_1 - TCP 192.168.1.3 192.168.1.204 60702 42080 ACK Denial of service (DoS)
+2022-12-30 16:57:39,457 - security_logger_1 - DHCP 192.168.1.56 192.168.1.108 63769 67 FIN Malicious traffic
+2022-12-30 16:57:39,708 - security_logger_1 - UDP 192.168.1.139 192.168.1.55 43475 42195 URG Cross-site scripting (XSS)
+2022-12-30 16:57:39,959 - security_logger_1 - HTTPS 192.168.1.121 192.168.1.248 47317 443 PSH Denial of service (DoS)
+2022-12-30 16:57:40,210 - security_logger_1 - SMTP 192.168.1.181 192.168.1.25 59297 25 PSH Malicious traffic
+2022-12-30 16:57:40,461 - security_logger_1 - HTTP 192.168.1.162 192.168.1.137 48656 80 FIN Denial of service (DoS)
+2022-12-30 16:57:40,712 - security_logger_1 - UDP 192.168.1.60 192.168.1.210 10360 42195 SYN Port scanning
+2022-12-30 16:57:40,963 - security_logger_1 - ICMP 192.168.1.44 192.168.1.67 31998 1 FIN SQL Injection
+2022-12-30 16:57:41,214 - security_logger_1 - TCP 192.168.1.21 192.168.1.166 62485 42080 RST Port scanning
+2022-12-30 16:57:41,465 - security_logger_1 - UDP 192.168.1.167 192.168.1.195 11726 42195 URG Port scanning
+2022-12-30 16:57:41,715 - security_logger_1 - SMTP 192.168.1.253 192.168.1.101 53413 25 PSH Malware
+2022-12-30 16:57:41,966 - security_logger_1 - ICMP 192.168.1.207 192.168.1.215 39259 1 ACK Phishing
+2022-12-30 16:57:42,218 - security_logger_1 - HTTPS 192.168.1.114 192.168.1.167 51423 443 SYN Phishing
+2022-12-30 16:57:42,469 - security_logger_1 - TCP 192.168.1.82 192.168.1.167 57767 42080 FIN Port scanning
+2022-12-30 16:57:42,720 - security_logger_1 - DHCP 192.168.1.78 192.168.1.10 42006 67 FIN Port scanning
+2022-12-30 16:57:42,971 - security_logger_1 - HTTPS 192.168.1.27 192.168.1.28 61758 443 SYN Denial of service (DoS)
+2022-12-30 16:57:43,223 - security_logger_1 - HTTPS 192.168.1.212 192.168.1.56 44828 443 URG Phishing
+2022-12-30 16:57:43,474 - security_logger_1 - TCP 192.168.1.186 192.168.1.109 65200 42080 SYN Malware
+2022-12-30 16:57:43,725 - security_logger_1 - HTTP 192.168.1.244 192.168.1.219 44706 80 SYN Port scanning
+2022-12-30 16:57:43,975 - security_logger_1 - DHCP 192.168.1.195 192.168.1.207 18182 67 URG Denial of service (DoS)
+2022-12-30 16:57:44,226 - security_logger_1 - HTTPS 192.168.1.145 192.168.1.162 12000 443 PSH Malware
+2022-12-30 16:57:44,477 - security_logger_1 - HTTPS 192.168.1.215 192.168.1.117 57824 443 FIN SQL Injection
+2022-12-30 16:57:44,728 - security_logger_1 - SMTP 192.168.1.159 192.168.1.184 52837 25 ACK Phishing
+2022-12-30 16:57:44,979 - security_logger_1 - HTTP 192.168.1.64 192.168.1.15 21700 80 FIN Phishing
+2022-12-30 16:57:45,230 - security_logger_1 - ICMP 192.168.1.242 192.168.1.93 27577 1 SYN Port scanning
+2022-12-30 16:57:45,481 - security_logger_1 - TCP 192.168.1.47 192.168.1.70 23609 42080 RST Phishing
+2022-12-30 16:57:45,731 - security_logger_1 - TCP 192.168.1.59 192.168.1.170 9481 42080 RST Denial of service (DoS)
+2022-12-30 16:57:45,982 - security_logger_1 - UDP 192.168.1.69 192.168.1.112 36146 42195 SYN Malicious traffic
+2022-12-30 16:57:46,233 - security_logger_1 - ICMP 192.168.1.80 192.168.1.99 63079 1 RST Port scanning
+2022-12-30 16:57:46,484 - security_logger_1 - SMTP 192.168.1.49 192.168.1.194 16248 25 SYN Phishing
+2022-12-30 16:57:46,735 - security_logger_1 - TCP 192.168.1.183 192.168.1.30 2812 42080 URG Malicious traffic
+2022-12-30 16:57:46,986 - security_logger_1 - UDP 192.168.1.27 192.168.1.156 38418 42195 PSH Cross-site scripting (XSS)
+2022-12-30 16:57:47,237 - security_logger_1 - SMTP 192.168.1.169 192.168.1.58 51465 25 ACK Malicious traffic
+2022-12-30 16:57:47,488 - security_logger_1 - HTTP 192.168.1.176 192.168.1.102 26934 80 PSH SQL Injection
+2022-12-30 16:57:47,739 - security_logger_1 - FTP 192.168.1.145 192.168.1.225 58938 21 ACK Denial of service (DoS)
+2022-12-30 16:57:47,990 - security_logger_1 - TFTP 192.168.1.202 192.168.1.137 24022 69 URG Malicious traffic
+2022-12-30 16:57:48,241 - security_logger_1 - HTTPS 192.168.1.126 192.168.1.74 46209 443 RST Malicious traffic
+2022-12-30 16:57:48,492 - security_logger_1 - ICMP 192.168.1.40 192.168.1.43 13083 1 ACK Port scanning
+2022-12-30 16:57:48,743 - security_logger_1 - HTTPS 192.168.1.106 192.168.1.186 38361 443 RST Port scanning
+2022-12-30 16:57:48,994 - security_logger_1 - TCP 192.168.1.102 192.168.1.118 23735 42080 FIN Port scanning
+2022-12-30 16:57:49,245 - security_logger_1 - TCP 192.168.1.72 192.168.1.79 59166 42080 SYN Malicious traffic
+2022-12-30 16:57:49,496 - security_logger_1 - UDP 192.168.1.76 192.168.1.69 15775 42195 SYN Malicious traffic
+2022-12-30 16:57:49,747 - security_logger_1 - HTTP 192.168.1.71 192.168.1.37 37607 80 URG Port scanning
+2022-12-30 16:57:49,998 - security_logger_1 - TCP 192.168.1.222 192.168.1.241 39566 42080 SYN Port scanning
+2022-12-30 16:57:50,249 - security_logger_1 - ICMP 192.168.1.20 192.168.1.91 44291 1 FIN Malware
+2022-12-30 16:57:50,499 - security_logger_1 - TCP 192.168.1.217 192.168.1.182 17842 42080 RST Malicious traffic
+2022-12-30 16:57:50,750 - security_logger_1 - HTTPS 192.168.1.241 192.168.1.218 21667 443 RST SQL Injection
+2022-12-30 16:57:51,001 - security_logger_1 - UDP 192.168.1.181 192.168.1.135 13296 42195 FIN Malware
+2022-12-30 16:57:51,252 - security_logger_1 - ICMP 192.168.1.69 192.168.1.7 28578 1 SYN Malicious traffic
+2022-12-30 16:57:51,503 - security_logger_1 - UDP 192.168.1.209 192.168.1.236 23392 42195 FIN Port scanning
+2022-12-30 16:57:51,754 - security_logger_1 - DHCP 192.168.1.82 192.168.1.149 25291 67 SYN Denial of service (DoS)
+2022-12-30 16:57:52,005 - security_logger_1 - UDP 192.168.1.65 192.168.1.207 47753 42195 FIN Port scanning
+2022-12-30 16:57:52,256 - security_logger_1 - SMTP 192.168.1.53 192.168.1.209 32828 25 ACK Malicious traffic
+2022-12-30 16:57:52,507 - security_logger_1 - UDP 192.168.1.94 192.168.1.198 21238 42195 RST Malicious traffic
+2022-12-30 16:57:52,759 - security_logger_1 - UDP 192.168.1.89 192.168.1.2 38494 42195 RST Denial of service (DoS)
+2022-12-30 16:57:53,011 - security_logger_1 - ICMP 192.168.1.21 192.168.1.103 34604 1 URG Port scanning
+2022-12-30 16:57:53,262 - security_logger_1 - TCP 192.168.1.8 192.168.1.84 28058 42080 SYN Port scanning
+2022-12-30 16:57:53,512 - security_logger_1 - FTP 192.168.1.43 192.168.1.28 35337 21 PSH Malicious traffic
+2022-12-30 16:57:53,763 - security_logger_1 - UDP 192.168.1.254 192.168.1.21 35598 42195 SYN Port scanning
+2022-12-30 16:57:54,014 - security_logger_1 - UDP 192.168.1.243 192.168.1.221 55082 42195 FIN Phishing
+2022-12-30 16:57:54,265 - security_logger_1 - UDP 192.168.1.6 192.168.1.132 39242 42195 RST Port scanning
+2022-12-30 16:57:54,516 - security_logger_1 - TCP 192.168.1.84 192.168.1.81 8863 42080 FIN Denial of service (DoS)
+2022-12-30 16:57:54,767 - security_logger_1 - TCP 192.168.1.247 192.168.1.9 25947 42080 PSH SQL Injection
+2022-12-30 16:57:55,018 - security_logger_1 - ICMP 192.168.1.250 192.168.1.233 8704 1 URG Port scanning
+2022-12-30 16:57:55,269 - security_logger_1 - SMTP 192.168.1.34 192.168.1.208 26488 25 ACK Denial of service (DoS)
+2022-12-30 16:57:55,519 - security_logger_1 - ICMP 192.168.1.211 192.168.1.219 49519 1 PSH Malicious traffic
+2022-12-30 16:57:55,771 - security_logger_1 - ICMP 192.168.1.5 192.168.1.146 36859 1 SYN Denial of service (DoS)
+2022-12-30 16:57:56,022 - security_logger_1 - UDP 192.168.1.145 192.168.1.52 32095 42195 ACK Phishing
+2022-12-30 16:57:56,273 - security_logger_1 - TCP 192.168.1.30 192.168.1.112 30245 42080 SYN Malicious traffic
+2022-12-30 16:57:56,524 - security_logger_1 - DHCP 192.168.1.11 192.168.1.160 22421 67 FIN Port scanning
+2022-12-30 16:57:56,775 - security_logger_1 - HTTP 192.168.1.223 192.168.1.36 36926 80 SYN Phishing
+2022-12-30 16:57:57,027 - security_logger_1 - UDP 192.168.1.209 192.168.1.144 7883 42195 ACK Port scanning
+2022-12-30 16:57:57,278 - security_logger_1 - SMTP 192.168.1.225 192.168.1.170 42628 25 ACK Malicious traffic
+2022-12-30 16:57:57,529 - security_logger_1 - HTTP 192.168.1.94 192.168.1.77 51205 80 FIN Denial of service (DoS)
+2022-12-30 16:57:57,779 - security_logger_1 - HTTP 192.168.1.253 192.168.1.196 21408 80 ACK Port scanning
+2022-12-30 16:57:58,030 - security_logger_1 - HTTP 192.168.1.170 192.168.1.109 47689 80 ACK Denial of service (DoS)
+2022-12-30 16:57:58,281 - security_logger_1 - UDP 192.168.1.168 192.168.1.1 39474 42195 PSH Phishing
+2022-12-30 16:57:58,532 - security_logger_1 - ICMP 192.168.1.136 192.168.1.189 30518 1 FIN Malware
+2022-12-30 16:57:58,783 - security_logger_1 - DNS 192.168.1.14 192.168.1.25 8047 53 PSH Phishing
+2022-12-30 16:57:59,034 - security_logger_1 - DNS 192.168.1.236 192.168.1.241 41107 53 SYN Phishing
+2022-12-30 16:57:59,285 - security_logger_1 - HTTPS 192.168.1.61 192.168.1.110 3331 443 SYN Malware
+2022-12-30 16:57:59,536 - security_logger_1 - ICMP 192.168.1.227 192.168.1.211 47314 1 SYN Port scanning
+2022-12-30 16:57:59,787 - security_logger_1 - SMTP 192.168.1.44 192.168.1.176 30400 25 URG Phishing
+2022-12-30 16:58:00,038 - security_logger_1 - UDP 192.168.1.103 192.168.1.215 49059 42195 FIN Malicious traffic
+2022-12-30 16:58:00,290 - security_logger_1 - SMTP 192.168.1.136 192.168.1.65 29939 25 SYN Phishing
