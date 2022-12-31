@@ -1,39 +1,37 @@
-2022-12-31 00:33:23,353 - security_logger_1 - critical_severity - UDP - 192.168.1.88 - 192.168.1.96 - 28198 - 63962 - SYN - Malware
-2022-12-31 00:33:23,604 - security_logger_1 - high_severity - UDP - 192.168.1.246 - 192.168.1.96 - 48386 - 10314 - PSH - Port scanning
-2022-12-31 00:33:23,855 - security_logger_1 - high_severity - HTTP - 192.168.1.195 - 192.168.1.91 - 45080 - 80 - RST - Malicious traffic
-2022-12-31 00:33:24,106 - security_logger_1 - medium_severity - HTTPS - 192.168.1.123 - 192.168.1.23 - 58791 - 443 - PSH - Port scanning
-2022-12-31 00:33:24,357 - security_logger_1 - medium_severity - ICMP - 192.168.1.51 - 192.168.1.180 - 65085 - 1 - URG - Malicious traffic
-2022-12-31 00:33:24,608 - security_logger_1 - low_severity - SMTP - 192.168.1.63 - 192.168.1.188 - 24036 - 25 - FIN - Malware
-2022-12-31 00:33:24,859 - security_logger_1 - high_severity - HTTP - 192.168.1.165 - 192.168.1.88 - 48115 - 80 - FIN - Port scanning
-2022-12-31 00:33:25,110 - security_logger_1 - medium_severity - SMTP - 192.168.1.19 - 192.168.1.158 - 47608 - 25 - RST - Port scanning
-2022-12-31 00:33:25,361 - security_logger_1 - high_severity - UDP - 192.168.1.186 - 192.168.1.70 - 12221 - 49918 - RST - Malicious traffic
-2022-12-31 00:33:25,612 - security_logger_1 - high_severity - DHCP - 192.168.1.135 - 192.168.1.200 - 44976 - 67 - ACK - Denial of service (DoS)
-2022-12-31 00:33:25,863 - security_logger_1 - low_severity - ICMP - 192.168.1.244 - 192.168.1.93 - 22810 - 1 - URG - Malicious traffic
-2022-12-31 00:33:26,114 - security_logger_1 - low_severity - FTP - 192.168.1.37 - 192.168.1.233 - 58873 - 21 - ACK - SQL Injection
-2022-12-31 00:33:26,365 - security_logger_1 - medium_severity - TCP - 192.168.1.60 - 192.168.1.24 - 2461 - 11937 - RST - Port scanning
-2022-12-31 00:33:26,616 - security_logger_1 - low_severity - SMTP - 192.168.1.95 - 192.168.1.246 - 21227 - 25 - PSH - SQL Injection
-2022-12-31 00:33:26,867 - security_logger_1 - medium_severity - FTP - 192.168.1.189 - 192.168.1.142 - 60118 - 21 - ACK - Port scanning
-2022-12-31 00:33:27,118 - security_logger_1 - high_severity - FTP - 192.168.1.166 - 192.168.1.215 - 46185 - 21 - ACK - Denial of service (DoS)
-2022-12-31 00:33:27,369 - security_logger_1 - medium_severity - HTTPS - 192.168.1.128 - 192.168.1.91 - 53614 - 443 - SYN - Port scanning
-2022-12-31 00:33:27,620 - security_logger_1 - medium_severity - HTTPS - 192.168.1.217 - 192.168.1.116 - 14495 - 443 - PSH - Denial of service (DoS)
-2022-12-31 00:33:27,871 - security_logger_1 - low_severity - UDP - 192.168.1.202 - 192.168.1.59 - 37930 - 58873 - URG - Malware
-2022-12-31 00:33:28,122 - security_logger_1 - low_severity - SNMP - 192.168.1.60 - 192.168.1.211 - 36996 - 161 - FIN - Port scanning
-2022-12-31 00:33:28,373 - security_logger_1 - high_severity - TCP - 192.168.1.91 - 192.168.1.64 - 29751 - 36405 - ACK - Denial of service (DoS)
-2022-12-31 00:33:28,624 - security_logger_1 - critical_severity - HTTPS - 192.168.1.61 - 192.168.1.57 - 55081 - 443 - PSH - Port scanning
-2022-12-31 00:33:28,874 - security_logger_1 - medium_severity - HTTP - 192.168.1.61 - 192.168.1.207 - 25625 - 80 - ACK - Port scanning
-2022-12-31 00:33:29,125 - security_logger_1 - medium_severity - UDP - 192.168.1.85 - 192.168.1.143 - 64673 - 1284 - SYN - Denial of service (DoS)
-2022-12-31 00:33:29,376 - security_logger_1 - low_severity - UDP - 192.168.1.54 - 192.168.1.54 - 58555 - 3267 - PSH - Port scanning
-2022-12-31 00:33:29,627 - security_logger_1 - low_severity - HTTP - 192.168.1.125 - 192.168.1.49 - 42038 - 80 - SYN - Phishing
-2022-12-31 00:33:29,878 - security_logger_1 - medium_severity - HTTPS - 192.168.1.148 - 192.168.1.188 - 7940 - 443 - URG - Denial of service (DoS)
-2022-12-31 00:33:30,129 - security_logger_1 - low_severity - UDP - 192.168.1.192 - 192.168.1.27 - 38532 - 45827 - ACK - Malware
-2022-12-31 00:33:30,380 - security_logger_1 - medium_severity - HTTP - 192.168.1.182 - 192.168.1.222 - 39516 - 80 - PSH - Malware
-2022-12-31 00:33:30,631 - security_logger_1 - low_severity - UDP - 192.168.1.61 - 192.168.1.7 - 11908 - 12029 - ACK - Port scanning
-2022-12-31 00:33:30,882 - security_logger_1 - low_severity - TCP - 192.168.1.95 - 192.168.1.9 - 27330 - 15507 - FIN - Port scanning
-2022-12-31 00:33:31,133 - security_logger_1 - low_severity - TCP - 192.168.1.213 - 192.168.1.128 - 20832 - 45244 - SYN - Denial of service (DoS)
-2022-12-31 00:33:31,384 - security_logger_1 - high_severity - SMTP - 192.168.1.176 - 192.168.1.173 - 27470 - 25 - RST - SQL Injection
-2022-12-31 00:33:31,635 - security_logger_1 - medium_severity - HTTP - 192.168.1.250 - 192.168.1.120 - 54317 - 80 - ACK - Malware
-2022-12-31 00:33:31,886 - security_logger_1 - low_severity - UDP - 192.168.1.2 - 192.168.1.186 - 33997 - 5610 - URG - Cross-site scripting (XSS)
-2022-12-31 00:33:32,137 - security_logger_1 - medium_severity - TCP - 192.168.1.6 - 192.168.1.192 - 8118 - 23776 - RST - Port scanning
-2022-12-31 00:33:32,387 - security_logger_1 - medium_severity - DHCP - 192.168.1.87 - 192.168.1.60 - 60087 - 67 - ACK - SQL Injection
-2022-12-31 00:33:32,638 - security_logger_1 - low_severity - HTTPS - 192.168.1.202 - 192.168.1.95 - 54569 - 443 - PSH - Phishing
-2022-12-31 00:33:32,890 - security_logger_1 - low_severity - HTTP - 192.168.1.254 - 192.168.1.151 - 47730 - 80 - SYN - Phishing
+2022-12-31 13:37:48,085 - security_logger_1 - critical_severity - UDP - 82.247.211.244:1999 --> 95.106.134.140:27294 - ACK - PING NMAP
+2022-12-31 13:37:48,336 - security_logger_1 - medium_severity - SMTP - 98.16.216.189:9615 --> 186.131.77.10:25 - ACK - Port scanning
+2022-12-31 13:37:48,587 - security_logger_1 - medium_severity - HTTPS - 52.157.106.145:31467 --> 43.128.223.157:443 - FIN - Malware
+2022-12-31 13:37:48,838 - security_logger_1 - medium_severity - UDP - 4.134.39.255:30647 --> 47.135.231.21:17469 - RST - Malware
+2022-12-31 13:37:49,089 - security_logger_1 - low_severity - HTTP - 6.49.168.127:2239 --> 215.57.204.155:80 - SYN - Port scanning
+2022-12-31 13:37:49,340 - security_logger_1 - low_severity - HTTP - 55.55.106.121:48354 --> 192.164.56.175:80 - PSH - Worm Propagation Attempt
+2022-12-31 13:37:49,592 - security_logger_1 - medium_severity - HTTP - 139.176.151.131:32308 --> 143.126.242.138:80 - URG - Port scanning
+2022-12-31 13:37:49,843 - security_logger_1 - low_severity - TFTP - 51.158.117.112:41281 --> 249.81.115.111:69 - SYN - Phishing
+2022-12-31 13:37:50,094 - security_logger_1 - low_severity - DNS - 200.5.137.96:30511 --> 232.245.195.254:53 - SYN - Phishing
+2022-12-31 13:37:50,345 - security_logger_1 - critical_severity - TCP - 139.9.217.134:27520 --> 237.77.253.106:7451 - ACK - Port scanning
+2022-12-31 13:37:50,597 - security_logger_1 - low_severity - HTTPS - 223.117.232.179:19558 --> 229.183.211.4:443 - PSH - Malware
+2022-12-31 13:37:50,848 - security_logger_1 - high_severity - SMTP - 136.226.255.241:37091 --> 11.29.15.123:25 - SYN - Worm Propagation Attempt
+2022-12-31 13:37:51,099 - security_logger_1 - critical_severity - UDP - 185.155.44.191:16457 --> 128.0.92.235:34016 - RST - Port scanning
+2022-12-31 13:37:51,350 - security_logger_1 - medium_severity - HTTP - 3.155.189.39:26822 --> 186.145.101.25:80 - FIN - Port scanning
+2022-12-31 13:37:51,601 - security_logger_1 - low_severity - TCP - 169.153.160.74:17367 --> 150.211.217.183:15368 - SYN - PING NMAP
+2022-12-31 13:37:51,852 - security_logger_1 - medium_severity - TCP - 93.58.248.226:38658 --> 143.61.81.7:44713 - PSH - Denial of service (DoS)
+2022-12-31 13:37:52,103 - security_logger_1 - high_severity - HTTP - 229.38.191.199:26899 --> 15.138.216.246:80 - SYN - PING NMAP
+2022-12-31 13:37:52,355 - security_logger_1 - low_severity - HTTP - 28.241.32.35:65294 --> 240.201.255.166:80 - ACK - PING NMAP
+2022-12-31 13:37:52,606 - security_logger_1 - high_severity - HTTPS - 146.97.68.156:53582 --> 157.33.234.32:443 - SYN - Phishing
+2022-12-31 13:37:52,857 - security_logger_1 - medium_severity - FTP - 32.215.111.112:37254 --> 196.161.87.192:21 - RST - Malware
+2022-12-31 13:37:53,109 - security_logger_1 - low_severity - HTTP - 45.76.211.68:16750 --> 53.249.71.232:80 - RST - Malware
+2022-12-31 13:37:53,360 - security_logger_1 - high_severity - UDP - 97.244.132.178:9784 --> 128.235.197.111:6926 - ACK - PING NMAP
+2022-12-31 13:37:53,611 - security_logger_1 - low_severity - HTTP - 69.226.45.167:64258 --> 225.207.181.57:80 - RST - Malware
+2022-12-31 13:37:53,862 - security_logger_1 - medium_severity - HTTP - 153.176.36.228:53450 --> 69.142.122.213:80 - FIN - Malware
+2022-12-31 13:37:54,114 - security_logger_1 - low_severity - FTP - 163.254.12.122:63971 --> 145.66.105.69:21 - URG - Denial of service (DoS)
+2022-12-31 13:37:54,365 - security_logger_1 - medium_severity - DNS - 94.138.205.71:57937 --> 79.67.4.181:53 - SYN - Phishing
+2022-12-31 13:37:54,616 - security_logger_1 - low_severity - TCP - 250.25.50.187:23774 --> 6.71.211.164:18119 - SYN - Denial of service (DoS)
+2022-12-31 13:37:54,867 - security_logger_1 - medium_severity - ICMP - 129.0.20.203:7733 --> 74.168.198.1:1 - ACK - PING NMAP
+2022-12-31 13:37:55,118 - security_logger_1 - low_severity - HTTPS - 46.20.67.231:15830 --> 193.95.161.247:443 - SYN - Malicious traffic
+2022-12-31 13:37:55,369 - security_logger_1 - medium_severity - HTTP - 77.247.118.125:13624 --> 68.199.205.83:80 - RST - Malicious traffic
+2022-12-31 13:37:55,620 - security_logger_1 - medium_severity - DNS - 54.6.68.28:36466 --> 244.30.57.2:53 - RST - Port scanning
+2022-12-31 13:37:55,871 - security_logger_1 - high_severity - TCP - 226.199.30.172:42276 --> 4.152.219.220:64457 - ACK - SQL Injection
+2022-12-31 13:37:56,122 - security_logger_1 - low_severity - HTTPS - 88.20.46.201:4737 --> 171.150.24.42:443 - RST - Port scanning
+2022-12-31 13:37:56,373 - security_logger_1 - medium_severity - UDP - 221.6.132.222:8293 --> 213.196.174.231:4151 - SYN - Denial of service (DoS)
+2022-12-31 13:37:56,623 - security_logger_1 - high_severity - UDP - 216.94.15.213:12732 --> 104.10.31.92:131 - RST - PING NMAP
+2022-12-31 13:37:56,874 - security_logger_1 - medium_severity - FTP - 128.23.157.227:6105 --> 246.19.33.147:21 - PSH - Phishing
+2022-12-31 13:37:57,126 - security_logger_1 - medium_severity - DNS - 149.185.24.147:11523 --> 194.127.246.102:53 - PSH - Port scanning
