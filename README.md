@@ -10,6 +10,9 @@
 
 - To run, simply run 'python main.py' in the terminal.
 
-- To change the number of log events to be generated in the config.py file (no_events setting).
+- To change the number of log events to be generated, use the 'no_events' setting in the config.py file.
+
+- To change the time taken to write an event, modify the 'write_time' setting in the config.py file.
+The lower the write time, the faster your event's will be generated (default is 0.25 (250 ms)).
 
 - Tested with Python version 3.10.6 (should be compatible with any version above 3.6+).
