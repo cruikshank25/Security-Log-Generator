@@ -2,7 +2,7 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Faker) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Features
-- Generates simulated log events for log formats that would typically be found in a SIEM solution.
+- Generates simulated log events for log formats that would typically be found in a SOC.
 - As of 11th January 2023, it supports IDS and Web access log formats.
 - In the future, the following log formats are planned to be added:
     - Windows event logs

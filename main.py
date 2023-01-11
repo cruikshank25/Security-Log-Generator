@@ -3,6 +3,7 @@
 #TODO: payload values (user agents, binary data, URLS, file names etc)
 #TODO: timeseries randomness? 
 #TODO: add optional output filepath
+#TODO: configuration into a JSON file?
 #TODO: add 'how to extend' section in README
 #TODO: add a 'future features' section in README
 
