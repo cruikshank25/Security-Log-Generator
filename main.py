@@ -1,9 +1,10 @@
 #Author: Sean Cruikshank
 #TODO: make alerts relevant to protocol/port
 #TODO: payload values (user agents, binary data, URLS, file names etc)
-#TODO: WEIGHTS to produce less high_severity and critical_severity events
 #TODO: timeseries randomness? 
 #TODO: add optional output filepath
+#TODO: add 'how to extend' section in README
+#TODO: add a 'future features' section in README
 
 import time
 import logger_definition
