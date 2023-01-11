@@ -1,0 +1,159 @@
+2023-01-10 16:14:28,708 - ids_logger_1 - low_severity - HTTP - 240.157.24.25:8622 --> 35.104.200.223:80 - SYN - Port scanning
+2023-01-10 16:14:28,964 - ids_logger_1 - medium_severity - HTTP - 8.155.143.191:5690 --> 221.119.12.119:80 - SYN - Denial of service (DoS)
+2023-01-10 16:14:29,217 - ids_logger_1 - low_severity - UDP - 147.9.200.79:50066 --> 53.9.22.155:44608 - SYN - Port scanning
+2023-01-10 16:14:29,473 - ids_logger_1 - low_severity - HTTPS - 245.188.59.8:13258 --> 101.217.33.99:443 - SYN - Denial of service (DoS)
+2023-01-10 16:14:29,725 - ids_logger_1 - low_severity - HTTP - 52.74.127.219:8889 --> 216.11.255.59:80 - PSH - Denial of service (DoS)
+2023-01-10 16:14:29,976 - ids_logger_1 - high_severity - TCP - 29.246.89.90:757 --> 82.7.105.107:44677 - FIN - SQL Injection
+2023-01-10 16:14:30,232 - ids_logger_1 - low_severity - HTTPS - 119.34.16.133:2952 --> 61.148.253.162:443 - RST - Phishing
+2023-01-10 16:14:30,487 - ids_logger_1 - low_severity - TCP - 219.212.75.128:37723 --> 194.82.170.208:30558 - ACK - Malicious traffic
+2023-01-10 16:14:30,743 - ids_logger_1 - low_severity - TCP - 73.185.58.191:23138 --> 219.249.154.229:1081 - FIN - Phishing
+2023-01-10 16:14:30,999 - ids_logger_1 - low_severity - UDP - 238.3.241.144:31401 --> 31.136.197.252:47408 - ACK - Port scanning
+2023-01-10 16:14:31,254 - ids_logger_1 - low_severity - ICMP - 54.163.121.244:1730 --> 60.178.45.11:1 - ACK - Malicious traffic
+2023-01-10 16:14:31,509 - ids_logger_1 - low_severity - DHCP - 184.102.30.62:5096 --> 11.206.202.166:67 - ACK - Port scanning
+2023-01-10 16:14:31,764 - ids_logger_1 - low_severity - UDP - 133.124.18.213:11144 --> 119.132.23.23:48932 - FIN - Port scanning
+2023-01-10 16:14:32,019 - ids_logger_1 - low_severity - HTTPS - 71.153.63.78:38229 --> 122.175.66.244:443 - RST - Port scanning
+2023-01-10 16:14:32,275 - ids_logger_1 - low_severity - TCP - 21.64.130.133:37167 --> 109.170.4.66:56606 - SYN - PING NMAP
+2023-01-10 16:14:32,531 - ids_logger_1 - low_severity - SNMP - 254.98.134.113:55669 --> 117.18.224.42:161 - PSH - Denial of service (DoS)
+2023-01-10 16:14:32,787 - ids_logger_1 - low_severity - TCP - 218.137.196.31:48353 --> 16.30.193.58:56933 - SYN - Malicious traffic
+2023-01-10 16:14:33,042 - ids_logger_1 - low_severity - HTTP - 98.108.184.26:12503 --> 113.235.23.162:80 - SYN - PING NMAP
+2023-01-10 16:14:33,296 - ids_logger_1 - low_severity - TCP - 7.119.7.147:5260 --> 148.39.154.2:16696 - FIN - Port scanning
+2023-01-10 16:14:33,548 - ids_logger_1 - low_severity - HTTPS - 219.41.87.44:65499 --> 71.246.21.177:443 - SYN - Denial of service (DoS)
+2023-01-10 16:14:33,802 - ids_logger_1 - low_severity - ICMP - 158.135.194.18:18119 --> 222.25.57.75:1 - SYN - SQL Injection
+2023-01-10 16:14:34,058 - ids_logger_1 - low_severity - HTTPS - 180.2.145.125:56258 --> 247.226.116.202:443 - SYN - Phishing
+2023-01-10 16:14:34,311 - ids_logger_1 - low_severity - ICMP - 229.164.104.168:15720 --> 38.105.194.209:1 - SYN - Cross-site scripting (XSS)
+2023-01-10 16:14:34,565 - ids_logger_1 - low_severity - UDP - 162.238.255.108:31956 --> 62.44.41.210:8760 - FIN - Denial of service (DoS)
+2023-01-10 16:14:34,821 - ids_logger_1 - low_severity - TCP - 138.51.40.161:55289 --> 58.164.181.31:62903 - SYN - Phishing
+2023-01-10 16:14:35,077 - ids_logger_1 - low_severity - FTP - 226.168.107.75:53486 --> 224.17.51.245:21 - URG - Denial of service (DoS)
+2023-01-10 16:14:35,331 - ids_logger_1 - medium_severity - TCP - 112.50.26.116:62275 --> 254.113.85.159:35658 - FIN - SQL Injection
+2023-01-10 16:14:35,587 - ids_logger_1 - medium_severity - TCP - 26.56.152.77:506 --> 129.62.245.95:12583 - SYN - SQL Injection
+2023-01-10 16:14:35,843 - ids_logger_1 - high_severity - ICMP - 232.198.68.205:23489 --> 76.140.67.93:1 - URG - Malware
+2023-01-10 16:14:36,098 - ids_logger_1 - low_severity - TCP - 79.94.99.161:34431 --> 163.248.157.194:21289 - SYN - PING NMAP
+2023-01-10 16:14:36,354 - ids_logger_1 - low_severity - ICMP - 19.98.140.113:26427 --> 110.27.193.59:1 - SYN - Denial of service (DoS)
+2023-01-10 16:14:36,610 - ids_logger_1 - low_severity - HTTP - 184.121.238.252:23041 --> 182.114.23.44:80 - ACK - Phishing
+2023-01-10 16:14:36,865 - ids_logger_1 - high_severity - ICMP - 47.245.195.96:28626 --> 48.229.226.165:1 - SYN - Denial of service (DoS)
+2023-01-10 16:14:37,118 - ids_logger_1 - low_severity - SNMP - 212.26.198.168:52819 --> 81.163.17.139:161 - ACK - Port scanning
+2023-01-10 16:14:37,374 - ids_logger_1 - low_severity - ICMP - 54.219.211.21:63717 --> 117.0.10.18:1 - SYN - PING NMAP
+2023-01-10 16:14:37,629 - ids_logger_1 - low_severity - UDP - 238.248.222.84:36761 --> 234.87.35.62:15826 - SYN - Malicious traffic
+2023-01-10 16:14:37,885 - ids_logger_1 - low_severity - TCP - 39.104.204.184:25292 --> 95.140.148.145:51603 - SYN - Malware
+2023-01-10 16:14:38,140 - ids_logger_1 - medium_severity - ICMP - 100.248.176.29:21593 --> 79.214.159.29:1 - ACK - SQL Injection
+2023-01-10 16:14:38,392 - ids_logger_1 - high_severity - HTTPS - 7.95.12.156:27610 --> 123.172.154.149:443 - SYN - PING NMAP
+2023-01-10 16:14:38,647 - ids_logger_1 - low_severity - HTTP - 46.215.144.14:43294 --> 68.214.138.171:80 - SYN - Worm Propagation Attempt
+2023-01-10 16:14:38,903 - ids_logger_1 - low_severity - FTP - 159.83.251.106:9939 --> 24.243.79.33:21 - SYN - Denial of service (DoS)
+2023-01-10 16:14:39,159 - ids_logger_1 - low_severity - TCP - 214.162.85.80:42928 --> 215.188.29.169:62099 - SYN - SQL Injection
+2023-01-10 16:14:39,415 - ids_logger_1 - low_severity - TCP - 70.149.80.171:22793 --> 145.202.105.17:17541 - SYN - Port scanning
+2023-01-10 16:14:39,666 - ids_logger_1 - low_severity - HTTP - 116.7.207.142:59448 --> 217.247.216.121:80 - SYN - Malicious traffic
+2023-01-10 16:14:39,920 - ids_logger_1 - low_severity - DHCP - 44.144.167.198:25855 --> 54.196.199.120:67 - SYN - Malware
+2023-01-10 16:14:40,176 - ids_logger_1 - low_severity - TCP - 212.181.138.251:51714 --> 200.39.82.101:30748 - SYN - Port scanning
+2023-01-10 16:14:40,431 - ids_logger_1 - low_severity - HTTPS - 45.225.201.83:59641 --> 176.202.15.97:443 - ACK - PING NMAP
+2023-01-10 16:14:40,687 - ids_logger_1 - critical_severity - UDP - 29.206.103.14:56 --> 111.71.227.58:18516 - FIN - Cross-site scripting (XSS)
+2023-01-10 16:14:40,942 - ids_logger_1 - low_severity - UDP - 204.113.112.255:34222 --> 191.79.192.55:36792 - FIN - Worm Propagation Attempt
+2023-01-10 16:14:41,193 - ids_logger_1 - low_severity - UDP - 58.147.37.221:951 --> 7.115.49.161:52998 - ACK - Denial of service (DoS)
+2023-01-10 16:14:41,448 - ids_logger_1 - medium_severity - ICMP - 63.109.219.92:4841 --> 171.20.241.103:1 - SYN - Malicious traffic
+2023-01-10 16:14:41,703 - ids_logger_1 - low_severity - TFTP - 153.228.62.222:20265 --> 134.77.109.50:69 - SYN - Malicious traffic
+2023-01-10 16:14:41,959 - ids_logger_1 - low_severity - ICMP - 181.222.195.138:3024 --> 194.41.76.6:1 - PSH - Port scanning
+2023-01-10 16:14:42,214 - ids_logger_1 - low_severity - TCP - 239.234.187.12:49763 --> 169.194.3.89:43901 - RST - Malicious traffic
+2023-01-10 16:14:42,467 - ids_logger_1 - medium_severity - SNMP - 131.92.231.254:62342 --> 80.67.209.232:161 - ACK - Malware
+2023-01-10 16:14:42,723 - ids_logger_1 - low_severity - TCP - 4.88.20.39:22531 --> 200.176.168.244:17860 - SYN - Phishing
+2023-01-10 16:14:42,979 - ids_logger_1 - low_severity - TCP - 29.55.5.37:12109 --> 146.47.66.182:49378 - SYN - Phishing
+2023-01-10 16:14:43,231 - ids_logger_1 - medium_severity - ICMP - 105.141.71.63:12820 --> 143.189.127.35:1 - SYN - PING NMAP
+2023-01-10 16:14:43,487 - ids_logger_1 - low_severity - DHCP - 59.21.154.216:44584 --> 83.145.207.229:67 - PSH - SQL Injection
+2023-01-10 16:14:43,743 - ids_logger_1 - low_severity - DHCP - 187.136.51.231:33320 --> 79.94.53.9:67 - RST - Phishing
+2023-01-10 16:14:43,998 - ids_logger_1 - low_severity - TCP - 242.33.114.154:46012 --> 44.216.252.133:52392 - SYN - Port scanning
+2023-01-10 16:14:44,254 - ids_logger_1 - low_severity - FTP - 241.164.56.74:1869 --> 105.66.142.136:21 - FIN - Denial of service (DoS)
+2023-01-10 16:14:44,510 - ids_logger_1 - medium_severity - TCP - 2.17.214.44:34955 --> 45.142.74.158:28258 - PSH - Phishing
+2023-01-10 16:14:44,764 - ids_logger_1 - low_severity - UDP - 79.209.102.131:14396 --> 247.45.28.53:56055 - RST - Malicious traffic
+2023-01-10 16:14:45,017 - ids_logger_1 - low_severity - SMTP - 217.195.127.97:25461 --> 90.164.114.2:25 - FIN - PING NMAP
+2023-01-10 16:14:45,273 - ids_logger_1 - medium_severity - TCP - 58.214.132.29:59722 --> 201.14.192.189:30464 - ACK - Malicious traffic
+2023-01-10 16:14:45,529 - ids_logger_1 - low_severity - HTTPS - 239.218.100.35:15929 --> 167.213.219.24:443 - ACK - Port scanning
+2023-01-10 16:14:45,785 - ids_logger_1 - low_severity - HTTPS - 161.5.178.209:59295 --> 240.222.191.238:443 - SYN - Denial of service (DoS)
+2023-01-10 16:14:46,041 - ids_logger_1 - low_severity - TCP - 107.49.178.24:28745 --> 175.183.8.188:47611 - FIN - Malware
+2023-01-10 16:14:46,295 - ids_logger_1 - medium_severity - HTTP - 115.251.169.105:1945 --> 69.221.89.51:80 - SYN - Denial of service (DoS)
+2023-01-10 16:14:46,551 - ids_logger_1 - low_severity - TCP - 73.1.182.81:28945 --> 196.139.27.64:4410 - SYN - Port scanning
+2023-01-10 16:14:46,807 - ids_logger_1 - low_severity - HTTP - 230.60.143.114:30840 --> 25.32.61.165:80 - URG - PING NMAP
+2023-01-10 16:14:47,063 - ids_logger_1 - medium_severity - TCP - 96.143.208.240:20785 --> 238.118.21.150:58846 - SYN - SQL Injection
+2023-01-10 16:14:47,318 - ids_logger_1 - medium_severity - ICMP - 92.138.206.163:46718 --> 175.131.25.170:1 - ACK - PING NMAP
+2023-01-10 16:14:47,572 - ids_logger_1 - high_severity - HTTP - 128.166.16.129:43326 --> 75.186.98.100:80 - ACK - SQL Injection
+2023-01-10 16:14:47,828 - ids_logger_1 - low_severity - TCP - 133.11.227.97:48513 --> 138.7.175.100:42523 - ACK - Cross-site scripting (XSS)
+2023-01-10 16:14:48,080 - ids_logger_1 - medium_severity - HTTP - 170.148.101.100:57251 --> 199.47.63.160:80 - PSH - SQL Injection
+2023-01-10 16:14:48,331 - ids_logger_1 - medium_severity - ICMP - 229.102.151.114:61340 --> 8.167.157.199:1 - PSH - Malware
+2023-01-10 16:14:48,587 - ids_logger_1 - low_severity - HTTP - 190.91.54.4:64936 --> 100.115.198.252:80 - SYN - Denial of service (DoS)
+2023-01-10 16:14:48,842 - ids_logger_1 - low_severity - TCP - 240.169.159.156:60372 --> 128.26.47.107:32153 - FIN - Denial of service (DoS)
+2023-01-10 16:14:49,098 - ids_logger_1 - low_severity - SNMP - 251.205.97.124:43553 --> 203.46.19.92:161 - SYN - Malware
+2023-01-10 16:14:49,354 - ids_logger_1 - low_severity - SMTP - 146.68.101.8:58885 --> 17.116.38.185:25 - SYN - SQL Injection
+2023-01-10 16:14:49,609 - ids_logger_1 - low_severity - TCP - 185.233.140.137:47181 --> 177.8.178.160:22193 - ACK - Malicious traffic
+2023-01-10 16:14:49,865 - ids_logger_1 - low_severity - HTTP - 122.46.8.177:15964 --> 196.67.147.205:80 - SYN - PING NMAP
+2023-01-10 16:14:50,120 - ids_logger_1 - low_severity - TCP - 113.0.169.192:61937 --> 109.190.131.80:45067 - ACK - PING NMAP
+2023-01-10 16:14:50,375 - ids_logger_1 - low_severity - TCP - 224.54.167.24:49206 --> 86.240.176.46:28511 - SYN - Malicious traffic
+2023-01-10 16:14:50,631 - ids_logger_1 - low_severity - ICMP - 21.21.10.216:59646 --> 236.102.208.229:1 - SYN - Port scanning
+2023-01-10 16:14:50,883 - ids_logger_1 - medium_severity - TCP - 130.77.97.216:13334 --> 68.41.76.28:11356 - SYN - SQL Injection
+2023-01-10 16:14:51,139 - ids_logger_1 - low_severity - HTTP - 84.109.187.194:34675 --> 36.212.127.235:80 - PSH - Malicious traffic
+2023-01-10 16:14:51,391 - ids_logger_1 - low_severity - UDP - 88.14.154.78:45205 --> 87.224.155.111:14593 - SYN - PING NMAP
+2023-01-10 16:14:51,645 - ids_logger_1 - medium_severity - TCP - 131.196.234.28:14980 --> 149.52.234.160:47755 - SYN - PING NMAP
+2023-01-10 16:14:51,898 - ids_logger_1 - low_severity - UDP - 60.169.153.101:52119 --> 90.83.136.35:28480 - SYN - Cross-site scripting (XSS)
+2023-01-10 16:14:52,153 - ids_logger_1 - low_severity - TCP - 189.10.23.213:48205 --> 158.69.133.221:57970 - SYN - Cross-site scripting (XSS)
+2023-01-10 16:14:52,409 - ids_logger_1 - medium_severity - UDP - 248.198.75.249:51900 --> 178.75.105.110:29533 - SYN - Malicious traffic
+2023-01-10 16:14:52,664 - ids_logger_1 - low_severity - ICMP - 188.202.168.231:61453 --> 137.92.197.250:1 - PSH - Denial of service (DoS)
+2023-01-10 16:14:52,916 - ids_logger_1 - low_severity - UDP - 123.122.176.168:36727 --> 46.39.160.164:44357 - PSH - Port scanning
+2023-01-10 16:14:53,168 - ids_logger_1 - low_severity - HTTPS - 166.150.161.226:38514 --> 69.124.107.56:443 - FIN - Phishing
+2023-01-10 16:14:53,423 - ids_logger_1 - critical_severity - UDP - 113.100.40.12:40801 --> 194.187.30.229:20422 - SYN - PING NMAP
+2023-01-10 16:14:53,679 - ids_logger_1 - medium_severity - FTP - 166.142.213.83:28893 --> 218.87.191.79:21 - SYN - Port scanning
+2023-01-10 16:14:53,931 - ids_logger_1 - medium_severity - FTP - 67.107.130.60:4957 --> 188.28.136.143:21 - FIN - PING NMAP
+2023-01-10 16:14:54,186 - ids_logger_1 - high_severity - UDP - 122.61.143.94:17948 --> 77.230.11.34:50986 - FIN - Phishing
+2023-01-10 16:14:54,442 - ids_logger_1 - low_severity - TFTP - 182.88.216.232:40166 --> 39.139.188.123:69 - FIN - Malware
+2023-01-10 16:14:54,694 - ids_logger_1 - low_severity - UDP - 15.175.74.183:41153 --> 30.114.113.199:62240 - ACK - PING NMAP
+2023-01-10 16:14:54,947 - ids_logger_1 - medium_severity - HTTP - 119.213.20.145:50163 --> 87.114.223.127:80 - SYN - Denial of service (DoS)
+2023-01-10 16:14:55,203 - ids_logger_1 - low_severity - ICMP - 7.196.142.27:23009 --> 36.250.50.205:1 - ACK - Denial of service (DoS)
+2023-01-10 16:14:55,459 - ids_logger_1 - low_severity - ICMP - 82.254.15.235:27590 --> 60.190.200.220:1 - URG - SQL Injection
+2023-01-10 16:14:55,714 - ids_logger_1 - medium_severity - UDP - 107.6.205.144:32219 --> 205.124.38.61:49029 - ACK - Port scanning
+2023-01-10 16:14:55,968 - ids_logger_1 - low_severity - UDP - 185.71.145.129:35449 --> 22.190.192.193:53654 - SYN - Malware
+2023-01-10 16:14:56,220 - ids_logger_1 - low_severity - ICMP - 72.121.116.195:64099 --> 201.235.76.78:1 - SYN - Port scanning
+2023-01-10 16:14:56,476 - ids_logger_1 - low_severity - TCP - 243.87.147.119:3262 --> 192.16.123.50:60781 - ACK - Denial of service (DoS)
+2023-01-10 16:14:56,732 - ids_logger_1 - low_severity - TCP - 123.159.154.85:18702 --> 149.26.160.225:36027 - SYN - Port scanning
+2023-01-10 16:14:56,983 - ids_logger_1 - medium_severity - TCP - 66.240.59.161:31432 --> 164.20.132.1:5888 - FIN - Denial of service (DoS)
+2023-01-10 16:14:57,239 - ids_logger_1 - low_severity - TCP - 201.221.1.0:21517 --> 135.120.13.225:40878 - SYN - Malicious traffic
+2023-01-10 16:14:57,491 - ids_logger_1 - low_severity - TCP - 195.39.224.120:10888 --> 9.60.66.229:32052 - URG - PING NMAP
+2023-01-10 16:14:57,747 - ids_logger_1 - low_severity - TCP - 144.237.59.217:54584 --> 191.223.44.20:21872 - SYN - Denial of service (DoS)
+2023-01-10 16:14:58,000 - ids_logger_1 - low_severity - TCP - 175.214.74.251:11953 --> 120.115.114.23:23637 - URG - Phishing
+2023-01-10 16:14:58,252 - ids_logger_1 - low_severity - UDP - 110.91.133.71:35686 --> 115.232.209.174:30335 - SYN - Phishing
+2023-01-10 16:14:58,508 - ids_logger_1 - medium_severity - UDP - 219.134.89.199:37272 --> 174.193.38.204:1347 - SYN - PING NMAP
+2023-01-10 16:14:58,764 - ids_logger_1 - low_severity - TCP - 223.121.102.233:57435 --> 229.234.170.114:34073 - SYN - Denial of service (DoS)
+2023-01-10 16:14:59,018 - ids_logger_1 - low_severity - HTTP - 110.84.229.213:2297 --> 34.122.240.180:80 - ACK - Phishing
+2023-01-10 16:14:59,270 - ids_logger_1 - high_severity - DNS - 217.97.37.225:34385 --> 20.187.48.202:53 - SYN - Port scanning
+2023-01-10 16:14:59,526 - ids_logger_1 - medium_severity - DHCP - 118.249.3.144:34056 --> 93.84.34.31:67 - SYN - PING NMAP
+2023-01-10 16:14:59,782 - ids_logger_1 - critical_severity - ICMP - 51.108.253.118:6988 --> 95.82.218.80:1 - SYN - Malware
+2023-01-10 16:15:00,033 - ids_logger_1 - low_severity - TFTP - 88.13.188.156:16773 --> 72.186.128.129:69 - SYN - Malicious traffic
+2023-01-10 16:15:00,287 - ids_logger_1 - medium_severity - DHCP - 134.253.187.103:56776 --> 117.91.128.156:67 - ACK - SQL Injection
+2023-01-10 16:15:00,539 - ids_logger_1 - low_severity - TCP - 6.89.17.28:50078 --> 170.232.173.69:25932 - PSH - PING NMAP
+2023-01-10 16:15:00,795 - ids_logger_1 - low_severity - TCP - 231.94.229.151:4648 --> 163.172.90.184:42674 - SYN - Denial of service (DoS)
+2023-01-10 16:15:01,047 - ids_logger_1 - low_severity - TCP - 89.20.59.21:48641 --> 127.175.164.52:62180 - FIN - PING NMAP
+2023-01-10 16:15:01,302 - ids_logger_1 - low_severity - TCP - 158.71.176.185:43501 --> 50.50.218.35:17681 - ACK - Denial of service (DoS)
+2023-01-10 16:15:01,558 - ids_logger_1 - low_severity - ICMP - 14.141.186.10:55149 --> 82.217.246.26:1 - SYN - SQL Injection
+2023-01-10 16:15:01,814 - ids_logger_1 - low_severity - TCP - 129.94.244.228:13057 --> 244.128.253.16:60655 - ACK - PING NMAP
+2023-01-10 16:15:02,065 - ids_logger_1 - low_severity - DNS - 174.174.76.34:33720 --> 29.1.3.29:53 - SYN - PING NMAP
+2023-01-10 16:15:02,316 - ids_logger_1 - low_severity - HTTP - 192.61.198.94:60981 --> 95.182.189.187:80 - PSH - Denial of service (DoS)
+2023-01-10 16:15:02,572 - ids_logger_1 - critical_severity - HTTP - 200.173.138.184:64345 --> 255.2.11.239:80 - ACK - Port scanning
+2023-01-10 16:15:02,828 - ids_logger_1 - low_severity - UDP - 138.75.57.166:63480 --> 20.38.39.218:45939 - ACK - Malicious traffic
+2023-01-10 16:15:03,083 - ids_logger_1 - low_severity - TFTP - 108.16.70.181:30334 --> 218.146.55.245:69 - FIN - Denial of service (DoS)
+2023-01-10 16:15:03,339 - ids_logger_1 - low_severity - TCP - 80.182.177.29:33475 --> 253.165.28.94:17481 - ACK - Port scanning
+2023-01-10 16:15:03,594 - ids_logger_1 - low_severity - SMTP - 165.143.109.71:28715 --> 229.254.35.117:25 - FIN - PING NMAP
+2023-01-10 16:15:03,847 - ids_logger_1 - high_severity - DNS - 50.158.77.97:36827 --> 29.221.98.45:53 - SYN - Phishing
+2023-01-10 16:15:04,103 - ids_logger_1 - low_severity - TCP - 179.18.167.105:5282 --> 176.159.208.13:44943 - ACK - Denial of service (DoS)
+2023-01-10 16:15:04,358 - ids_logger_1 - medium_severity - ICMP - 69.84.137.83:5322 --> 164.73.216.131:1 - SYN - Denial of service (DoS)
+2023-01-10 16:15:04,614 - ids_logger_1 - medium_severity - HTTP - 115.10.117.29:31376 --> 110.197.123.121:80 - SYN - SQL Injection
+2023-01-10 16:15:04,868 - ids_logger_1 - high_severity - SMTP - 216.58.146.16:48195 --> 199.93.87.150:25 - SYN - Cross-site scripting (XSS)
+2023-01-10 16:15:05,124 - ids_logger_1 - low_severity - HTTPS - 76.221.206.19:13639 --> 208.30.196.43:443 - SYN - Port scanning
+2023-01-10 16:15:05,379 - ids_logger_1 - low_severity - FTP - 226.148.145.240:7457 --> 8.66.191.117:21 - URG - Port scanning
+2023-01-10 16:15:05,634 - ids_logger_1 - low_severity - TCP - 177.248.37.147:10899 --> 224.139.20.8:15588 - ACK - Denial of service (DoS)
+2023-01-10 16:15:05,890 - ids_logger_1 - low_severity - TCP - 224.234.120.46:43914 --> 48.91.19.231:52001 - FIN - Port scanning
+2023-01-10 16:15:06,146 - ids_logger_1 - low_severity - TCP - 142.88.168.177:38091 --> 13.110.84.199:50178 - ACK - Port scanning
+2023-01-10 16:15:06,397 - ids_logger_1 - medium_severity - DNS - 146.9.199.181:1455 --> 16.111.185.45:53 - ACK - PING NMAP
+2023-01-10 16:15:06,653 - ids_logger_1 - low_severity - TCP - 55.116.208.16:6653 --> 16.226.80.96:24441 - SYN - Denial of service (DoS)
+2023-01-10 16:15:06,909 - ids_logger_1 - low_severity - SNMP - 193.213.52.128:28162 --> 166.235.216.39:161 - URG - Port scanning
+2023-01-10 16:15:07,163 - ids_logger_1 - low_severity - HTTPS - 207.209.249.4:1228 --> 155.120.168.36:443 - PSH - Port scanning
+2023-01-10 16:15:07,416 - ids_logger_1 - medium_severity - HTTP - 89.215.198.145:36892 --> 38.57.132.15:80 - FIN - Port scanning
+2023-01-10 16:15:07,668 - ids_logger_1 - low_severity - HTTP - 165.20.68.105:21089 --> 102.26.53.70:80 - RST - Denial of service (DoS)
+2023-01-10 16:15:07,920 - ids_logger_1 - low_severity - TCP - 139.213.213.45:8405 --> 199.146.181.161:15091 - PSH - Malicious traffic
+2023-01-10 16:15:08,175 - ids_logger_1 - low_severity - UDP - 245.211.162.240:9920 --> 246.46.154.23:63025 - ACK - SQL Injection
+2023-01-10 16:15:08,431 - ids_logger_1 - low_severity - HTTP - 201.192.135.12:18692 --> 220.3.26.106:80 - FIN - SQL Injection
+2023-01-10 16:15:08,683 - ids_logger_1 - low_severity - HTTP - 35.70.197.76:3047 --> 208.46.11.45:80 - RST - Phishing
+2023-01-10 16:15:08,939 - ids_logger_1 - low_severity - ICMP - 191.253.200.91:58749 --> 16.192.12.62:1 - FIN - PING NMAP
