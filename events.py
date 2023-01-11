@@ -9,3 +9,15 @@ class ids_event:
         self.dest_port = dest_port
         self.flags = flags
         self.alert_desc = alert_desc
+
+
+class access_event:
+    def __init__(self, client_ip, method, resource, protocol, status, bytes, referrer, user_agent):
+        self.client_ip = client_ip
+        self.method = method
+        self.resource = resource
+        self.protocol = protocol
+        self.status = status
+        self.bytes = bytes
+        self.referrer = referrer
+        self.user_agent = user_agent
