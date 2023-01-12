@@ -11,9 +11,11 @@ class ids_event:
         self.alert_desc = alert_desc
 
 
+# Access log event type class representing the contents of an access log event
 class access_event:
-    def __init__(self, client_ip, method, resource, protocol, status, bytes, referrer, user_agent):
+    def __init__(self, client_ip, user, method, resource, protocol, status, bytes, referrer, user_agent):
         self.client_ip = client_ip
+        self.user = user
         self.method = method
         self.resource = resource
         self.protocol = protocol

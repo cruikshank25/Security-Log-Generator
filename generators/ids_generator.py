@@ -4,6 +4,7 @@ from fields import ids_fields
 from events import ids_event
 
 
+# maps common port values to the correct protocol 
 def get_port(protocol):
     # create a dictionary of common port values for protocols
     protocol_to_port = {
@@ -24,6 +25,7 @@ def get_port(protocol):
     return protocol_to_port.get(protocol, random.randint(1, 65535))
 
 
+# generates a random valid ip address
 def get_ip():
     # generate a random octet (a number between 0 and 255)
     octet1 = random.randint(0, 255)
@@ -40,6 +42,7 @@ def get_ip():
     return ip_addr
 
 
+# gather and generate values for fields and construct into access event class object
 def make_event():
     # create the severity, protocol, flag and alert description from the possible choices based on the weights
     event_severity = random.choices(ids_fields.SEVERITY, ids_fields.SEVERITY_WEIGHTS)[0]

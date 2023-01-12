@@ -1,7 +1,7 @@
-# IDS log possible fields and possible values for field
+# IDS log fields class for possible fields and possible values for field
 class ids_fields:
     def __init__(self):
-         # define possible field values and weights for field values (the liklihood of a particular field value being selected
+         # define possible field values and weights for field values (the liklihood of a particular field value being selected over another)
         self.PROTOCOL = ['TCP', 'UDP', 'HTTP', 'HTTPS', 'ICMP', 'FTP', 'SMTP', 'DNS', 'DHCP', 'TFTP', 'SNMP']
         self.PROTOCOL_WEIGHTS = [10, 4, 4, 4, 3, 1, 1, 1, 1, 1, 1]
         
@@ -18,6 +18,7 @@ class ids_fields:
 ids_fields = ids_fields()
 
 
+# access log fields class for possible fields and possible values for field
 class access_fields:
     def __init__(self):
         self.METHOD = ['GET', 'POST', 'PUT', 'DELETE', 'HEAD', 'CONNECT', 'OPTIONS', 'TRACE', 'PATCH']

@@ -2,7 +2,7 @@ config = {
     "logging_level":"INFO",
     "no_events":500,
     "write_time":0.25,
-    "log_type":"ids",
+    "log_type":"access",
 }
 
 logging_level = config["logging_level"]
