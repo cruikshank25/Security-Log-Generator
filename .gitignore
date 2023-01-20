@@ -7,3 +7,6 @@ access.log
 
 # ignore tests directory
 tests/
+
+# ignore plotters directory
+plotters/
