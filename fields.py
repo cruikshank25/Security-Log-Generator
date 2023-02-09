@@ -1,4 +1,4 @@
-# IDS log fields class for possible fields and possible values for field
+# IDS log fields class for possible fields and possible values for fields
 class ids_fields:
     def __init__(self):
          # define possible field values and weights for field values (the liklihood of a particular field value being selected over another)
@@ -15,10 +15,9 @@ class ids_fields:
         self.SEVERITY = ['low_severity', 'medium_severity', 'high_severity', 'critical_severity']
         self.SEVERITY_WEIGHTS = [20, 4, 2, 1]
 
-ids_fields = ids_fields()
 
 
-# access log fields class for possible fields and possible values for field
+# access log fields class for possible fields and possible values for fields
 class access_fields:
     def __init__(self):
         self.METHOD = ['GET', 'POST', 'PUT', 'DELETE', 'HEAD', 'CONNECT', 'OPTIONS', 'TRACE', 'PATCH']
@@ -48,4 +47,45 @@ class access_fields:
         self.USER_AGENT_WEIGHTS = [5, 5, 5, 1, 1]
 
 
+# endpoint log fields class for possible fields and possible values for fields
+class endpoint_fields:
+    def __init__(self):
+        self.EVENT_TYPE = ['Malware Detected', 'Scan Started', 'Scan Completed', 'Update Applied', 'Exception',
+                            'Real-time Protection Disabled', 'Real-time Protection Enabled', ]
+        self.EVENT_TYPE_WEIGHTS = [4, 8, 8, 8, 1,
+                                    1, 1]
+
+        self.ACTION = ['Quarantine', 'Restored', 'Deleted', 'Allow', 'Clean', 'Report', 'Block']
+        self.ACTION_WEIGHTS = [10, 2, 4, 2, 4, 1, 1]
+
+        # equal chance
+        self.THREAT_NAME = ['Virus.Win32.Example', 'Trojan.JS.Example', 'Worm.Win32.Example', 'Adware.Win32.Example',
+                            'Ransomware.Win32.Example', 'Backdoor.Win32.Example', 'Rootkit.Win32.Example', 'Spyware.Win32.Example',
+                            'PUP.Win32.Example', 'Exploit.Win32.Example']
+        #self.THREAT_NAME_WEIGHTS = []
+
+        self.SCAN_TYPE = ['Full Scan', 'Quick Scan', 'Custom Scan', 'On-Demand Scan', 'Real-time Scan', 'Boot-time Scan']
+        self.SCAN_TYPE_WEIGHTS = [5, 5, 2, 2, 1, 1]
+
+        self.UPDATE_TYPE = ['Definition Update', 'Threat Database Update', 'Software Update', 'Configuration Update', 'Engine Update']
+        self.UPDATE_TYPE_WEIGHTS = [3, 2, 1, 1, 1]
+
+        self.EXCEPTION_REASON = ['Trusted Application', 'Whitelisted', 'Trusted Publisher', 'Administrator Override']
+        self.EXCEPTION_REASON_WEIGHTS = [4, 4, 4, 1]
+
+        self.REALTIME_PROTECTION_REASON = ['Scheduled', 'Manual', 'Automatic']
+        self.REALTIME_PROTECTION_REASON_WEIGHTS = [3, 1, 2]
+        
+        self.LEGIT_PROCESSES = ['crsss.exe', 'wininit.exe', 'services.exe', 'lsass.exe',
+                                'svchost.exe', 'msiexec', 'taskmgr.exe', 'explorer.exe']
+
+        self.OBVIOUS_MALICIOUS = ['password_stealer.exe', 'keylogger.exe', 'squirmy_wormy.exe', 'ransom.exe',
+                                'kaiden_bot.exe', 'adrev4free.scr', 'trjn_hrse.exe', 'SQL_SLAMMER.exe',
+                                'CODE_RED.scr', 'gonnacry.exe', 'leepicvirus.exe', 'doom.exe']
+
+
+
+
+ids_fields = ids_fields()
 access_fields = access_fields()
+endpoint_fields = endpoint_fields()

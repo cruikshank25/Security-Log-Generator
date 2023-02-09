@@ -58,7 +58,7 @@ def make_event():
     event_src_port = random.randint(1, 65535)
     
     # create the dest port based on the protocol, if not then generate a random valid port
-    event_dest_port = event_dest_port = get_port(event_protocol)
+    event_dest_port = get_port(event_protocol)
 
     # create the event using the 'Event' class and return the 'Event' object
     event = ids_event(event_severity, event_protocol, event_src_ip, event_dest_ip, event_src_port, event_dest_port, event_flag, event_alert_desc)

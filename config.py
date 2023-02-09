@@ -1,17 +1,17 @@
 config = {
     "logging_level":"INFO",
     # General Parameters (applies first)
-    "log_type":"ids",
+    "log_type":"endpoint",
     "event_distribution": "linear",
     # Linear Distribution Parameters (only applies if linear distribution)
-    "no_events":2500,
-    "write_time":0.5,
+    "no_events":500,
+    "write_time":1,
     # Wave Distribution Parameters (only applies if wave distribution)
-    "frequency": 'n/a',
-    "amplitude": 'n/a',
-    "sample_rate": 'n/a',
-    "duration": 'n/a',
-    "stretch": 'n/a'
+    "frequency": 1,
+    "amplitude": 10,
+    "sample_rate": 100,
+    "duration": 1,
+    "stretch": 10
 }
 
 

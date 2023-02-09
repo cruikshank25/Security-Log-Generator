@@ -3,13 +3,12 @@
 
 ## Features
 - Generates simulated events for log formats that would typically be found in a SOC.
-- As of 11th January 2023, it supports IDS and Web access log formats.
+- As of 31st January 2023, it supports IDS, Web Access and Endpoint log formats.
 - Can generate a specific number of events in a linear fashion or use a waveform to add 'bumpiness' to your data.
 - In the future, the following log formats are planned to be added:
     - Windows event logs
     - Linux event logs
     - Perimeter device logs (firewalls, vpns, proxies etc)
-    - Endpoint security logs
     - Feel free to add an issue to the project if you require an additional format not listed
 - The code is modular and extensible, adding additional formats can be done with relative ease. 
 
