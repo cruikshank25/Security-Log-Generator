@@ -10,6 +10,3 @@ tests/
 
 # ignore plotters directory
 plotters/
-
-# ignore logs
-logs/
