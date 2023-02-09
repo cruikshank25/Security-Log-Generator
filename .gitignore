@@ -1,10 +1,6 @@
 # ignore pycache
 __pycache__/
 
-# ignore logs
-ids.log
-access.log
-
 # ignore tests directory
 tests/
 
