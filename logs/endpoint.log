@@ -1,0 +1,108 @@
+Date: 2023-02-09 19:38:48,294 
+Event Type: Scan Started
+Scan Type: On-Demand Scan
+User: douglas
+Computer: AICYVWXI71
+Date: 2023-02-09 19:38:49,442 
+Event Type: Malware Detected
+File Name: consider.js.exe
+File Path: C:\Users\thomas\close\effort\reason\task\consider.js.exe
+File Hash: b2f5e7d6-f513-4e0b-934a-69d71285294e
+Threat Name: ['Worm.Win32.Example']
+Action Taken: Deleted
+User: katherine
+Computer: TMFUKDPP44
+Date: 2023-02-09 19:38:50,452 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 4.6.1
+User: System
+Computer: BIZUZGTK14
+Date: 2023-02-09 19:38:51,458 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 5.5.8
+User: System
+Computer: OWRMUAYY51
+Date: 2023-02-09 19:38:52,464 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 6.6.6
+User: System
+Computer: SPFIMVBL42
+Date: 2023-02-09 19:38:53,521 
+Event Type: Scan Completed
+Scan Type: On-Demand Scan
+Malware Found: 0
+User: eric
+Computer: ZYEAIVXT75
+Date: 2023-02-09 19:38:54,636 
+Event Type: Malware Detected
+File Name: create.txt.exe
+File Path: C:\Users\anthony\win\treatment\short\senior\create.txt.exe
+File Hash: e74a64a9-e995-4170-96c2-cf2721f57c81
+Threat Name: ['Rootkit.Win32.Example']
+Action Taken: Restored
+User: nicole
+Computer: ZYRKMGBK25
+Date: 2023-02-09 19:38:55,679 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 4
+User: kenneth
+Computer: BYIXBZSO47
+Date: 2023-02-09 19:38:56,681 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 2.6.1
+User: System
+Computer: VQKDBWWO67
+Date: 2023-02-09 19:38:57,721 
+Event Type: Scan Completed
+Scan Type: Custom Scan
+Malware Found: 0
+User: brenda
+Computer: VHYZMZGY95
+Date: 2023-02-09 19:38:58,772 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: amanda
+Computer: YOFGEOOL64
+Date: 2023-02-09 19:38:59,802 
+Event Type: Scan Started
+Scan Type: Boot-time Scan
+User: michelle
+Computer: BLEEPDSW66
+Date: 2023-02-09 19:39:00,814 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 6.7.2
+User: System
+Computer: QWSKBPWL42
+Date: 2023-02-09 19:39:01,859 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: collin
+Computer: DQMOBZQR48
+Date: 2023-02-09 19:39:02,910 
+Event Type: Scan Completed
+Scan Type: Boot-time Scan
+Malware Found: 8
+User: kyle
+Computer: UVNVEDMW43
+Date: 2023-02-09 19:39:03,910 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 6.3.5
+User: System
+Computer: SJRRNEBD57
+Date: 2023-02-09 19:39:05,015 
+Event Type: Malware Detected
+File Name: crsss.exe
+File Path: C:\Users\jennifer\product\note\one\defense\crsss.exe
+File Hash: 94249ba1-b1f0-4c8a-a7bc-214f856e3430
+Threat Name: ['Adware.Win32.Example']
+Action Taken: Clean
+User: annette
+Computer: JIZXHSSL65
