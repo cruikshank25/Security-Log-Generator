@@ -1,0 +1,15 @@
+config:
+  # Logging Parameters
+  logging_level: INFO
+  # General Parameters (applies first)
+  log_type: ids
+  event_distribution: linear
+  # Linear Distribution Parameters (only applies if linear distribution)
+  no_events: 100
+  write_time: 0.1
+  # Wave Distribution Parameters (only applies if wave distribution)
+  frequency: 'n/a'
+  amplitude: 'n/a'
+  sample_rate: 'n/a'
+  duration: 'n/a'
+  stretch: 'n/a'

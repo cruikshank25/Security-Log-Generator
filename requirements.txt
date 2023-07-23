@@ -1,1 +1,5 @@
 Faker==16.3.0
+matplotlib==3.5.1
+numpy==1.22.0
+pandas==1.4.0
+PyYAML==6.0.1

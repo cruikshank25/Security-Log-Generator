@@ -25,10 +25,10 @@ pip install -r requirements.txt
 
 ## Configuration
 
-- Edit the following values directly in the config.py file.
+- Edit the following values directly in the config.yaml file.
 - The configuration parameters can be divided as follows:
 
-###### - General Parameters: 
+### - General Parameters: 
 - log_type: this defines what type of log to produce.
     - takes values of:
     - access
@@ -39,13 +39,13 @@ pip install -r requirements.txt
     - linear 
     - wave
 
-###### - Linear Distribution Parameters:
+#### - Linear Distribution Parameters:
 - no_events: defines the number of events to generate.
     - you can specify any integer here.
 - write_time: defines how long it takes to write a particular event.
     - you can specify a float or an integer here.
 
-###### - Wave Distribution Parameters:
+#### - Wave Distribution Parameters:
 - frequency:
     - number of ossicilations within a time slice, the higher the value the more bumps and troughs.
 - amplitude:
@@ -59,48 +59,48 @@ pip install -r requirements.txt
     - for example, if you have a 'duration' value of 2 and a 'stretch' value of 10
     - you can expect the program to take 20 odd seconds to complete its event generation.
 
-###### - Valid Linear Distribution Configuration Example:
+#### - Valid Linear Distribution Configuration Example:
 - A valid linear distribution configuration could look like this:
 ~~~
-config = {
-    "logging_level":"INFO",
-    # General Parameters (applies first)
-    "log_type":"ids",
-    "event_distribution": "linear",
-    # Linear Distribution Parameters (only applies if linear distribution)
-    "no_events":2500,
-    "write_time":0.5,
-    # Wave Distribution Parameters (only applies if wave distribution)
-    "frequency": 'n/a',
-    "amplitude": 'n/a',
-    "sample_rate": 'n/a',
-    "duration": 'n/a',
-    "stretch": 'n/a'
-}
+config:
+  # Logging Parameters
+  logging_level: INFO
+  # General Parameters (applies first)
+  log_type: ids
+  event_distribution: linear
+  # Linear Distribution Parameters (only applies if linear distribution)
+  no_events: 2500
+  write_time: 0.5
+  # Wave Distribution Parameters (only applies if wave distribution)
+  frequency: 'n/a'
+  amplitude: 'n/a'
+  sample_rate: 'n/a'
+  duration: 'n/a'
+  stretch: 'n/a'
 ~~~
 
 - your event distribution for the above config would look something like this:
 ![](images/Linear_Example_Distribution.PNG)
 
-###### - Valid Wave Distribution Configuration Example:
+#### - Valid Wave Distribution Configuration Example:
 - A valid wave distribution configuration could look like this:
 
 ~~~
-config = {
-    "logging_level":"INFO",
-    # General Parameters (applies first)
-    "log_type":"ids",
-    "event_distribution": "wave",
-    # Linear Distribution Parameters (only applies if linear distribution)
-    "no_events":500,
-    "write_time":0.25,
-    # Wave Distribution Parameters (only applies if wave distribution)
-    "frequency": 1,
-    "amplitude": 100,
-    "sample_rate": 200,
-    "duration": 2,
-    "stretch": 10
-}
+config:
+  # Logging Parameters
+  logging_level: INFO
+  # General Parameters (applies first)
+  log_type: ids
+  event_distribution: wave
+  # Linear Distribution Parameters (only applies if linear distribution)
+  no_events: 'n/a'
+  write_time: 'n/a'
+  # Wave Distribution Parameters (only applies if wave distribution)
+  frequency: 1
+  amplitude: 100
+  sample_rate: 200
+  duration: 2
+  stretch: 10
 ~~~
 
 - Your event distribution for the above config would look something like this:

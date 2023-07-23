@@ -9,3 +9,6 @@ plotters/
 
 # ignore docs directory (for now)
 docs/
+
+# ignore old
+old/
