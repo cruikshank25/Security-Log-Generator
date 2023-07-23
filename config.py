@@ -1,11 +1,11 @@
 config = {
     "logging_level":"INFO",
     # General Parameters (applies first)
-    "log_type":"endpoint",
+    "log_type":"access",
     "event_distribution": "linear",
     # Linear Distribution Parameters (only applies if linear distribution)
-    "no_events":500,
-    "write_time":1,
+    "no_events":10000,
+    "write_time":0.00001,
     # Wave Distribution Parameters (only applies if wave distribution)
     "frequency": 1,
     "amplitude": 10,
@@ -13,6 +13,26 @@ config = {
     "duration": 1,
     "stretch": 10
 }
+
+
+# config = {
+#     "logging_level":"INFO",
+#     # General Parameters (applies first)
+#     "log_type":"ids",
+#     "event_distribution": "linear",
+#     # Linear Distribution Parameters (only applies if linear distribution)
+#     "no_events":500,
+#     "write_time":1,
+#     # Wave Distribution Parameters (only applies if wave distribution)
+#     "frequency": 1,
+#     "amplitude": 10,
+#     "sample_rate": 100,
+#     "duration": 1,
+#     "stretch": 10
+# }
+
+
+
 
 
 logging_level = config["logging_level"]

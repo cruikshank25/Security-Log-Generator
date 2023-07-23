@@ -2,7 +2,6 @@
 #TODO: make IDS alerts relevant to protocol/port
 #TODO: payload values (user agents, binary data, URLS, file names etc) for IDS events
 #TODO: add optional output filepath
-#TODO: configuration into a JSON file / text config file
 #TODO: update README into simple / advanced sections
 #TODO: add a custom log generator (for user specified log format)
 #TODO: add windows event log event type
@@ -10,8 +9,12 @@
 #TODO: add perimiter log event type
 #TODO: ability to customise weightings
 #TODO: add threat actor group fields to logs
-#TODO: A README file for log format explanations
- 
+#TODO: A seperate README file for log format explanations
+#TODO: A seperate README file for wave distribution configurations
+#TODO: update config.py to a YAML file
+#TODO: debug log
+#TODO: stdout information
+
 import time
 import logger
 import config
@@ -134,4 +137,7 @@ def main():
         
 
 if __name__ == '__main__':
+    start = time.time()
     main()
+    end = time.time()
+    print(end - start)

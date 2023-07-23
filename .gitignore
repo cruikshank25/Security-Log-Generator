@@ -6,3 +6,6 @@ tests/
 
 # ignore plotters directory
 plotters/
+
+# ignore docs directory (for now)
+docs/

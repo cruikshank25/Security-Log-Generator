@@ -33,6 +33,7 @@ pip install -r requirements.txt
     - takes values of:
     - access
     - ids
+    - endpoint
 - event_distribution: defines how to distribute events over time.
     - takes values of:
     - linear 
@@ -137,3 +138,27 @@ and how long it takes to run in seconds to give some hints towards the expected 
 ~~~
 python main.py
 ~~~
+
+
+## General Performance Expectations
+
+All benchmarks tested on a 12th Gen Intel Core i5-12600K series CPU.
+
+For linear distribution of events, the performance in terms of events written per second is tied to the `write_time` setting. Typically you can achieve the highest performance at low `write_time` settings (generally 0.01s) which is the time the program waits to write a new event. 
+
+The maximum events per second can vary depending on the `log_type` setting. You can expect the following max eps based on the following log_types (if using a similar performance processor):
+
+`ids` - 64 events per second
+
+`access` - 15 events per second
+
+`endpoint` - 26 events per second
+
+Typically, each instance of the program would utilize around `7%` of the CPU on which this was tested. Therefore, there should be plenty of capacity to run multiple instances of the program simultaneously to achieve a higher `events per second` score. 
+
+Tested performance benchmarks can be found in the `Benchmarks.xlsx` spreadsheet in the project root directory.
+
+<em>general note - A lot of the performance will be tied not only to the randomness generators the program uses but some of the fundamental restrictions of Python itself. Effort is being made to increase performance for future versions however performance is not a high priority objective for this tool, rather the randomness and 'believability' of events generated. In many use cases, where generating a large number of events in quick succession is the goal, likely other tools will be much more suited to the task. 
+
+Performance for waveform-based event generation i.e. `event_distribution: wave` has not yet been fully tested.
+</em>
