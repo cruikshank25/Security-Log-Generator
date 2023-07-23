@@ -1,0 +1,4 @@
+﻿no. of events,write time (s),time to complete (s),eps (events per second),log_type
+1000,0.001,63.37,15.7803377,access
+10000,0.00001,376.7,26.54632333,endpoint
+500,0.001,7.78,64.26735219,ids
